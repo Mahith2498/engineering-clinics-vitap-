@@ -1,0 +1,16 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 04/08/2026 04:57:39 PM
+// Design Name: 
+// Module Name: fulladder
+// Project Name: 
+//////////////////////////////////////////////////////////////////////////////////
+module fulladder(
+input A,B,CIN,
+output COUT,SUM
+    );
+    assign {COUT,SUM} = A+B+CIN; 
+endmodule

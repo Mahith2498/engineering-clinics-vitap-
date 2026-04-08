@@ -1,0 +1,17 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 04/08/2026 04:54:16 PM
+// Design Name: 
+// Module Name: halfadder
+// Project Name:
+//////////////////////////////////////////////////////////////////////////////////
+module halfadder(
+input a,b,
+output cout,sum
+    );
+    assign sum = a^b;
+    assign cout = a&b;
+endmodule
